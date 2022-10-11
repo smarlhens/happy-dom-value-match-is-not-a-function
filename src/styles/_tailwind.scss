@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+html {
+  @apply bg-base-100;
+}
+
+html.dark {
+  @apply bg-base-800;
+}
